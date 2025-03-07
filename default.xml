@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="https://git.yoctoproject.org" name="yocto" />
+	<remote fetch="https://git.openembedded.org" name="oe" />
+    <remote fetch="https://github.com/OE4T" name="oe4t" />
+
+	<default revision="scarthgap" />
+
+	<project name="poky.git" path="repos/poky" remote="yocto" revision="7a06e2daa719ca0cac9905988f72bb0cb546c7b5" />
+	<project name="meta-openembedded" path="repos/meta-openembedded" remote="oe" revision="6c9f1f8d4538119803bf793747b65e4d23c33544" />
+    <project name="meta-virtualization.git" path="repos/meta-virtualization" remote="yocto" revision="94ee980814d7c5824449b2745a934664adbf3007" />
+    <project name="meta-tegra.git" path="repos/meta-tegra" remote="oe4t" revision="eae16b56ccf4f761a39bfa4381ada8a4e8f952bd" />
+    <project name="meta-tegra-community" path="repos/meta-tegra-community" remote="oe4t" revision="c03675e45fa229a4c067f5bd2e8461b713d789f4" />
+</manifest>
